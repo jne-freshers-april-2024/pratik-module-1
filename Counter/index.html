@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .count{
+            font-size: 50px;
+            color: rgb(0,0,0);
+            position: relative;
+            left:50vw;
+        }
+        body{
+            background-color: lightblue;
+        }
+        .bt{
+            font-size: 30px;
+            padding: 10px;
+            background-color: rgb(65, 4, 65);
+            color: white;
+            border-radius: 10px;
+            position: relative;
+            left: 38vw;
+            cursor:  pointer;
+
+        }
+        .bt:hover{
+            background-color: rgb(145, 28, 145);
+            transform: scale(0.9);
+            transition-duration: 0.25s;
+            
+        }
+        
+        .container{
+            position: relative;
+            top: 30vh;
+            /* border: 2px solid black; */
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="count"><p id="num">1</p></div>
+    <div class="btn"><button class="inc bt" onclick="increament()">Increament</button>
+    <button class="dec bt" onclick="decreament()">Decreament</button>
+    <button class="null bt" onclick="setZero()">Set to Zero</button></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
