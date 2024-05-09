@@ -1,0 +1,15 @@
+{
+   "data":[ {
+        "name":"Pratik",
+        "age":23,
+        "Manager":"Vishal Sir"
+    },
+    {
+        "name":"Aniket",
+        "age":23,
+        "Manager":"Vishal Sir"
+
+    }
+
+    ]
+}
